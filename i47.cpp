@@ -1,9 +1,8 @@
+
+// summation of previous pairs
 #include <iostream>
 using namespace std;
-
-
 bool *inMemory;
-
 
 int pairSum(int arr[], int n, int k)
 {
@@ -36,7 +35,6 @@ int pairSum(int arr[], int n, int k)
     }
     return count;
 }
-
 
 int main()
 {
